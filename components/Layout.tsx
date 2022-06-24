@@ -4,8 +4,8 @@ import Navbar from "./Navbar";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <div className="flex flex-col min-h-screen bg-base-100 text-base-content bg-black " 
-        style={{ fontFamily: "Inter" }}
+    <div className="flex flex-col min-h-screen bg-base-100 text-base-content bg-black "
+      style={{ fontFamily: "Inter" }}
     >
       <Head>
         <title>{process.env.NEXT_PUBLIC_SITE_TITLE}</title>

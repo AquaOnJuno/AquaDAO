@@ -5,9 +5,9 @@ const WhatdoWedo = () => {
         <span className="text-2xl text-secondary font-bold text-center">
           What do we do?
         </span>
-        <img src="/what_do_we_do_horz.svg" alt="what do we do" className="h-[117px]"/>
+        <img src="/what_do_we_do_horz.svg" alt="what do we do" className="hidden xl:block h-[117px]"/>
+        <img src="/what_do_we_do_vert.svg" alt="what do we do" className="block xl:hidden h-[580px]"/>
       </div>
-
     </div>
   );
 };
