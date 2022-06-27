@@ -1,6 +1,7 @@
 import {
   useRouter
 } from "next/router";
+import SwapBox from "./SwapBox";
 
 const Hero = () => {
   const router = useRouter();
@@ -19,7 +20,7 @@ const Hero = () => {
           Join us as we revolutionize charity and save countless lives.
         </span>
         <div className="flex w-full mt-12 flex-col xl:flex-row items-center">
-          <button className="btn btn-primary w-[250px] h-[62px] btn-wide text-black"
+          <button className="btn btn-primary w-[250px] h-[62px] text-black"
             onClick={() => router.push("/buy")}
           >
             Buy $AQUA Tokens
@@ -36,7 +37,7 @@ const Hero = () => {
         className="flex w-full xl:w-1/2  bg-cover bg-center"
         style={{ backgroundImage: "url('./swap_background.png')" }}
       >
-
+        <SwapBox />
       </div>
     </div>
   );

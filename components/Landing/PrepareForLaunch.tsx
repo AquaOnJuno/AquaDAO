@@ -1,6 +1,6 @@
 const PrepareForLaunch = () => {
   return (
-    <div className="flex w-full flex flex-col-reverse xl:flex-col justify-center mt-14 mb-32">
+    <div className="flex w-full flex flex-col-reverse xl:flex-col justify-center mt-14">
       <span className="text-xl text-secondary font-bold text-center">
         In the meantime, join us on social media, in order to solve big problems,
       </span>

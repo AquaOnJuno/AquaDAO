@@ -30,7 +30,7 @@ function Navbar() {
   const PUBLIC_SITE_ICON_URL = process.env.NEXT_PUBLIC_SITE_ICON_URL || "";
 
   return (
-    <div className="w-screen px-2 md:px-16">
+    <div className="w-full px-2 md:px-16">
       <nav className="flex flex-wrap text-center md:text-left md:flex flex-row w-full items-center py-4 ">
         <div className="flex items-center">
           <Link href="/">
@@ -71,7 +71,7 @@ const NavItems = [
   },
   {
     title: "Buy $AQUA",
-    url: "/buy"
+    url: "/buyAqua"
   },
   {
     title: "Governance",
