@@ -1,6 +1,12 @@
+import Stories from "components/BuyAqua/Stories";
+import Title from "components/BuyAqua/Title";
+
 const BuyAqua = () => {
   return (
-    <h1 className="text-secondary">buy</h1>
+    <div className="w-full">
+      <Title />
+      <Stories />
+    </div>
   )
 };
 
