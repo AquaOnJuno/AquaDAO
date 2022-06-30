@@ -51,7 +51,7 @@ function Navbar() {
         <div className="flex flex-grow lg:flex-grow-0 max-w-full">
           {NavItems.map((item, index) => (
             <Link href={item.url} key={index}>
-              <a className="ml-2 xl:ml-[39px] text-gray-300">
+              <a className="ml-2 md:ml-[39px] text-gray-300">
                 {item.title}
               </a>
             </Link>

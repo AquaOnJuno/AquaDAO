@@ -5,8 +5,8 @@ import TokenSelector from "./TokenSelector";
 
 const SwapBox = () => {
   return (
-    <div className="flex flex-col w-full items-center justify-center h-[500px]">
-      <div className="flex flex-col w-4/5 lg:w-2/3 p-10 bg-black rounded-xl">
+    <div className="flex flex-col w-full items-center justify-center h-[500px] ">
+      <div className="flex flex-col w-4/5 lg:w-2/3 p-4 md:p-10 bg-black rounded-xl ml-[10%]">
         <div className="flex w-full justify-end">
           <div className="flex w-7 h-7 rounded-full bg-[#2E2E37] justify-center items-center">
             <MdRefresh size="12px" color="white" />
