@@ -37,7 +37,9 @@ const Hero = () => {
         className="flex w-full md:w-1/2 bg-primary" 
         style={{clipPath: "polygon(0 50%,3.625rem 0,100% 0,100% 100%,3.625rem 100%,0 50%)"}}
       >
+        <div className="flex w-full ml-[10%]">
         <SwapBox />
+        </div>
       </div>
     </div>
   );
