@@ -73,16 +73,20 @@ const NavItems = [
     title: "Buy $AQUA",
     url: "/buyAqua"
   },
+  // {
+  //   title: "Governance",
+  //   url: "/governance"
+  // },
+  // {
+  //   title: "Airdrop",
+  //   url: "/airdrop"
+  // },
+  // {
+  //   title: "Contact",
+  //   url: "/contact"
+  // },
   {
-    title: "Governance",
-    url: "/governance"
-  },
-  {
-    title: "Airdrop",
-    url: "/airdrop"
-  },
-  {
-    title: "Contact",
-    url: "/contact"
+    title: "NFT Launch",
+    url: "/nftlaunch"
   }
 ]
