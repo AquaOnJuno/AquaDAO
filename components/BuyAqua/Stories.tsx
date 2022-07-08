@@ -2,7 +2,7 @@ import SwapBox from "components/Landing/Hero/SwapBox";
 
 const Stories = () => {
   return (
-    <div className="flex flex-col lg:flex-row w-full p-24">
+    <div className="flex flex-col lg:flex-row w-full p-2 lg:p-24">
       <div className="flex flex-col w-full lg:w-1/2 justify-center">
         <span className="text-secondary text-5xl font-semibold">
           Buy&nbsp;
