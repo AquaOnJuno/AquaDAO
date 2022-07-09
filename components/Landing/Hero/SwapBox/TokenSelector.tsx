@@ -21,7 +21,6 @@ const TokenSelector:FunctionComponent<Props> = ({init = 0}) => {
 
       setTokenList(res.data.tokens);
       setIndex(init);
-      console.log(res)
       return res;
     }
     fetchTokenList();
