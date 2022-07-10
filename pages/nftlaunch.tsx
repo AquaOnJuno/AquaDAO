@@ -11,10 +11,13 @@ const NftLaunch = () => {
   // const [message, setMessage] = useState<string>("");
   // const timeToDays = time * 60 * 60 * 24 * 1000;
 
-  let countDownDate = 1657512000000;
+  let countDownDate = 1657576800000;
+
   useEffect(() => {
     var updateTime = setInterval(() => {
       var now = new Date().getTime();
+      const offset = new Date().getTimezoneOffset()*60*1000;
+      now += offset;
 
       var difference = countDownDate - now;
 
